@@ -1,3 +1,5 @@
+git add *
+git commit -m "My first commit"
 Connect to the repository
 	git remote add origin https://github.com/samplaid/propertyCompar
 commit on the repository
