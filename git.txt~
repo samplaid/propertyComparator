@@ -1,0 +1,5 @@
+Connect to the repository
+	git remote add origin https://github.com/samplaid/propertyCompar
+
+git push origin master
+
