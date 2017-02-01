@@ -1,7 +1,21 @@
-git add *
-git commit -m "My first commit"
-Connect to the repository
+Install on linux: 
+	sudo apt-get update $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev asciidoc xmlto docbook2x
+	sudo apt-get update $ sudo apt-get install git
+	git config --global user.name "samplaid" $ git config --global user.email "samplaid07@hotmail.com"
+
+Copy an existing Git repository:
+	git clone https://github.com/samplaid/propertyComparator.git
+
+creates a new Git repository:
+		git init
+
+Adds changes in the working directory to the staging area (changes are not actually recorded until you run git commit):
+	git add *
+
+Commit on the LOCAL repository: 
+	git commit -m "My first commit"
+
+Connect to the GITHUB repository
 	git remote add origin https://github.com/samplaid/propertyCompar
-commit on the repository
 	git push origin master
 

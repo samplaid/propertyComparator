@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Repository and Service layers
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+	<context:annotation-config />
+	<!-- context:component-scan base-package="lu.wealins.lissia_services.business, lu.iwi.mapper, lu.wealins.lissia_services.editing" /-->
+	
+  	<!-- import properties file -->
+	<!-- import resource="properties-config.xml"/-->
+ 
+    <!-- import the encrypted properties file -->
+	<!-- import resource="encrypt-config.xml"/-->
+	
+	<!-- import the dataSource definition -->
+	<!-- import resource="database-config.xml" /-->  
+    
+ 	<!-- java @configuration -->
+ 	<!-- bean class="lu.wealins.lissia_services.config.JavaConfiguration"/-->	 	
+</beans>
