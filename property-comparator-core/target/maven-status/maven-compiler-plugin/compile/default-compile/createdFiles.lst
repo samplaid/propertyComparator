@@ -1,0 +1,13 @@
+com\comparator\property\service\CodeLabelService.class
+lu\wealins\lissia_services\business\BillsService.class
+lu\wealins\lissia_services\model\Bill.class
+com\comparator\property\model\CodeLabel.class
+lu\wealins\lissia_services\config\JavaConfiguration.class
+lu\wealins\lissia_services\db\entity\Bills.class
+com\comparator\property\repository\CodeLabelRepository.class
+com\comparator\property\service\impl\HelloServiceImpl.class
+lu\wealins\lissia_services\db\repository\BillsRepository.class
+lu\wealins\lissia_services\business\impl\BillsServiceImpl.class
+com\comparator\property\service\HelloService.class
+com\comparator\property\model\CodeLabelPK.class
+com\comparator\property\service\impl\CodeLabelServiceImpl.class
