@@ -17,5 +17,7 @@ Commit on the LOCAL repository:
 
 Connect to the GITHUB repository
 	git remote add origin https://github.com/samplaid/propertyCompar
+
+Commit to the GITHUB repository
 	git push origin master
 
