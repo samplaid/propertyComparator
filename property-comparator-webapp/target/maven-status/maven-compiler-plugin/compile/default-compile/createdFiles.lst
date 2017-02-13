@@ -1,0 +1,4 @@
+controllers\HelloController.class
+lu\wealins\lissia_services\web\model\GenericResponse.class
+lu\wealins\lissia_services\web\model\RestResponse.class
+lu\wealins\lissia_services\web\controller\BillController.class

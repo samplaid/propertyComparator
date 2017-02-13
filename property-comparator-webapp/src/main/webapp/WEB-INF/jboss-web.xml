@@ -2,11 +2,13 @@
 <jboss-web>
   	<context-root>property-comparator</context-root>
   	
-  	<!-- resource-ref-->
+  	<resource-ref>
 		<!-- Name defined in ActivationSpec java class -->
-		<!-- res-ref-name>jdbc/Lissia</res-ref-name-->
+		<!-- res-ref-name>mysql/property_search_engine</res-ref-name-->
+		<res-ref-name>jdbc/Lissia</res-ref-name>
 		<!-- Name defined in JBoss EAP JCA ResourceAdapter AdminObject -->
-		<!-- jndi-name>java:/jdbc/Lissia</jndi-name-->
-	<!-- /resource-ref-->
+		<!-- jndi-name>java:/mysql/property_search_engine</jndi-name-->
+		<jndi-name>java:/jdbc/Lissia</jndi-name>
+	</resource-ref>
 	
 </jboss-web>
