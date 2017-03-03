@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+	<context-root>property</context-root>
+	
+  	<resource-ref>
+		<!-- Name defined in ActivationSpec java class -->
+		<res-ref-name>mysql/property_search_engine</res-ref-name>
+		<!-- Name defined in JBoss EAP JCA ResourceAdapter AdminObject -->
+		<jndi-name>java:jboss/datasources/property_search_engine</jndi-name>
+	</resource-ref>
+
+<!-- 	<resource-ref> -->
+<!-- 		<res-ref-name>jdbc/ExampleDS</res-ref-name> -->
+<!-- 		<res-type>javax.sql.DataSource</res-type> -->
+<!-- 		<jndi-name>java:jboss/datasources/ExampleDS</jndi-name> -->
+<!-- 	</resource-ref> -->
+</jboss-web>
